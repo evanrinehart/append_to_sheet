@@ -8,7 +8,7 @@ require 'json'
 
 OOB_URI = 'urn:ietf:wg:oauth:2.0:oob'
 APPLICATION_NAME = 'Sheet Accessor'
-CLIENT_SECRETS_PATH = 'client_secrets.json'
+CLIENT_SECRETS_PATH = 'client_secret.json'
 CREDENTIALS_PATH = 'tokens.yaml'
 SCOPE = Google::Apis::SheetsV4::AUTH_SPREADSHEETS
 
