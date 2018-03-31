@@ -43,7 +43,7 @@ def append sheet_id, row
     sheet_id,
     'A1',
     {values: [row]},
-    value_input_option: 'RAW'
+    value_input_option: 'USER_ENTERED'
   )
 end
 
